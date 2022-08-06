@@ -1,0 +1,95 @@
+@media only screen and (max-width: 739px) {
+  /*banner*/
+  .left-image {
+    height: auto;
+    overflow: inherit;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  /*navigation*/
+  #nav-name {
+    display: none;
+  }
+  #nav-bar .container-row {
+    display: block;
+    justify-content: flex-start;
+    margin-top: 0px;
+  }
+  #nav-bar .container-row a {
+    padding: 5px 20px;
+    border-left: none;
+    border-right: none;
+    display: block;
+    justify-content: flex-start;
+    justify-items: flex-start;
+  }
+  #nav-bar .container-row a:nth-child(2) {
+    border-right: none;
+  }
+  #nav-bar .container-row a:nth-child(5) {
+    border-right: none;
+  }
+  section > .container {
+    width: 100%;
+  }
+
+  /*aubout me*/
+  .container-about {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-left: 0px;
+  }
+  #target {
+    padding-left: 20px;
+  }
+
+  /*job-info*
+  Kinh nghiệmHọc vấHoạt độngSở thíchNgôn ngữKỹ năng*/
+  #job-info .container {
+    width: 100%;
+    column-count: 1;
+    padding: 30px 5px;
+  }
+  /*chứng chỉ giải thưởng*/
+  #certificate .container {
+    background-color: #f7f7f7;
+    padding: 0px 5px;
+  }
+  .chung-chi-box {
+    grid-template-columns: 1fr;
+  }
+  .chung-chi-box .chung-chi:first-child {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .chung-chi-box .chung-chi:nth-child(2) {
+    border-left: none;
+  }
+  .chung-chi-box-1 {
+    grid-template-columns: 1fr;
+  }
+  /*Du an*/
+  .grid-3-col {
+    grid-template-columns: 1fr;
+  }
+  #project .container {
+    width: 100%;
+    padding: 30px 5px;
+  }
+  /*Footer*/
+  #footer .container {
+    width: 100%;
+    padding: 30px 5px;
+    margin-left: 0px;
+  }
+
+  #footer .container ul li {
+    margin-left: 20px;
+  }
+  li i {
+    font-size: 5vw;
+  }
+  #footer .container ul li a:link {
+    font-size: 3vw;
+  }
+}

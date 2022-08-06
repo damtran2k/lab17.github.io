@@ -1,0 +1,88 @@
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  /*banner*/
+  .left-image {
+    height: auto;
+    overflow: inherit;
+  }
+  /*navigation*/
+  #nav-name {
+    display: none;
+  }
+  #banner-text {
+    top: 40%;
+    left: 50%;
+  }
+  #nav-bar .container-row a {
+    padding: 10px 40px;
+    margin-top: 0px;
+  }
+  #nav-bar .container-row a:nth-child(2) {
+    border-right: 1px solid #d0d0d0;
+    margin-right: 100px;
+  }
+
+  section > .container {
+    width: 100%;
+  }
+
+  /*aubout me*/
+  .container-about {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  #target {
+    padding-left: 50px;
+  }
+  /*job-info*
+  Kinh nghiệmHọc vấHoạt độngSở thíchNgôn ngữKỹ năng*/
+  #job-info .container {
+    width: 100%;
+    column-count: 2;
+    padding: 30px 5px;
+  }
+
+  .exp,
+  .study,
+  .act,
+  .hobby,
+  .language,
+  .skill {
+    margin-bottom: 30px;
+    border: 1px solid #e9ecef;
+  }
+
+  /*DU AN*/
+  #du-an-content-1 {
+    padding-bottom: 22px;
+  }
+
+  /*CHỨNG CHỈ GIẢI THƯỞNG*/
+  #certificate .container {
+    background-color: #f7f7f7;
+    margin-left: -50px;
+  }
+  #certificate .section-title {
+    margin-left: 20px;
+  }
+  .chung-chi-box,
+  .chung-chi-box-1 {
+    margin-left: 20px;
+  }
+  /*Footer*/
+  #footer .container {
+    width: 100%;
+    padding: 30px 5px;
+    margin-left: 0px;
+  }
+
+  #footer .container ul li {
+    margin-left: 50px;
+  }
+  li i {
+    font-size: 3vw;
+  }
+  #footer .container ul li a:link {
+    font-size: 2vw;
+    margin-left: 60px;
+  }
+}
